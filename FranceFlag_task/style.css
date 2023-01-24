@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.main {
+    height: 100vw;
+    display: flex;
+    height: 100vh;
+}
+
+.bluePart {
+    background-color: #0055A4;
+    width: 33%;
+}
+
+.whitePart {
+    background-color: white;
+    width: 33%;
+}
+
+.redPart {
+    background-color: #EF4135;
+    width: 33%;
+}

@@ -1,0 +1,14 @@
+
+.main{
+    margin: 13%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.flag{
+    background-color: #BC002D;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+
+}

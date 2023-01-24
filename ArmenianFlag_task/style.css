@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0
+}
+.main{
+    width: 100vw;
+}
+.redPart{
+    background-color: red;
+    height: 33.3vh;
+}
+.bluePart{
+    background-color: blue  ;
+    height: 33.3vh;
+}
+.yellowPart{
+    background-color: orange;
+    height: 33.3vh;
+}

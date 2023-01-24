@@ -1,0 +1,9 @@
+.submitPart{
+    position: relative;
+    right:20px;
+    
+}
+.btn{
+    border-radius: 10px;
+    width: 70px;
+}

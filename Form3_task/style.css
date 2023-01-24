@@ -1,0 +1,54 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+}
+.formPart{
+    background-color: white;
+    width: 70vw;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+}
+.inputs input{
+    position:relative;
+    margin:7px;
+    height: 22px;
+}
+.age{
+    position: relative;
+    left:6px
+}
+.freeCode{
+    display:flex;
+}
+.radioOptions{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    right: 35px;
+    top:20px;
+    text-align: justify;
+}
+.specialText{
+    position: relative;
+    left:45px;
+}
+.content{
+    position: relative;
+    top: 25px
+}
+.checkboxOptions{
+    display:flex;
+}
+.checkboxs{
+display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    right: 35px;
+    top: 20px;
+    text-align: justify;
+}

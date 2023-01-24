@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Contact Details</h1>
+    <div class="main">
+        <form action="#">
+        
+            <p>Please enter your personal details:</p>
+                <label for="firstName" class="fullName">First name:<sup>&lowast;</sup></label>
+                <input type="text" name="firstName" id="firstName" value="Fred" required /><br />
+                <label for="lastName" class="fullName">Last name:<sup>&lowast;</sup></label>
+                <input type="text" name="lastName" id="lastName" value="Bloggs" required /><br />
+                <label for="address" class="street">Street address:</label>
+                <input type="text" name="address" size="35" id="address" value="Station Road" /><br />
+                <label for="city" class="town">Town/city:</label>
+                <input type="text" name="city" id="city" value="Dorkwell" /><br />
+                <label for="postcode">Postcode/zip:</label>
+                <input type="postcode" name="postcode" id="postcode" value="DW1 56A" /><br />
+                <label for="tel" class="telephone">Telephone:</label>
+                <input type="tel" name="tel" id="tel" value="0123 456789" /><br />
+                <label for="mobile" class="mobilePhone">Mobile:</label>
+                <input type="tel" name="mobile" id="mobile" value="01567 899876" /><br />
+                <label for="email" class="emAddress">Email address:<sup>&lowast;</sup></label>
+                <input type="email" name="email" id="email" size="35" value="fbloggs@coldmail.bet" /><br />
+                <p class="smallText">Fields marked * are required</p>
+                <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+    
+</body>
+</html>

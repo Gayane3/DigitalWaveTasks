@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+}
+.main{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 30%;
+    margin:auto;
+    padding-left: 50px
+}
+input{
+    margin: 7px;
+}
+.smallText{
+    font-size: 12px;
+    text-align: center;
+}
+.btn{
+    margin-left:45%;
+    margin-bottom: 20px
+}
+#lastName{
+    position:relative;
+    left: 3px
+}
+#address{
+    position: relative;
+    right: 14px
+}
+#city{
+    position: relative;
+    left: 11px
+}
+#postcode{
+    position: relative;
+    right: 6px
+}
+#tel{
+    position: relative;
+    left: 9px
+}
+#mobile{
+    position: relative;
+    left: 29px
+}
+#email{
+    position: relative;
+    right: 22px
+}
+.fullName{
+    position: relative;
+    left: 5px
+}
+
+.street{
+    position: relative;
+    right: 10px
+}
+.town{
+    position: relative;
+    left: 12px
+}
+.telephone{
+    position: relative;
+    left: 12px
+}
+.mobilePhone{
+    position: relative;
+    left: 35px
+}
+.emAddress {
+    position: relative;
+    right: 18px
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Font Awesome Icons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="root">
+
+    </main>
+    <script>
+        for (let i = 0; i < 20; i++) {
+            let el = document.createElement("div");
+            el.className = "newDiv";
+            el.setAttribute("id", i)
+            root.appendChild(el);
+            root.style.display = "flex";
+            root.style.flexWrap = "wrap";
+            el.style.backgroundColor = "green";
+            el.style.margin = "20px";
+            el.style.width = "100px";
+            el.style.height = "100px";
+
+        }
+
+        let allDiv = document.querySelectorAll("div");
+        let arrId = [];
+        for (let i = 0; i < allDiv.length; i++) {
+            allDiv[i].addEventListener("click", changeFunc)
+
+            function changeFunc(e) {
+                arrId.push(Number(allDiv[i].id))
+                allDiv[i].style.backgroundColor = "red";
+                for (let j = arrId[0]; j <= arrId[1]; j++) {
+                    allDiv[j].style.backgroundColor = "red";
+                }
+                if (arrId[0] > arrId[1]) {
+                    for (let z = arrId[1]; z <= arrId[0]; z++) {
+                        allDiv[z].style.backgroundColor = "red";
+                    }
+
+                }
+                if (arrId[2]) {
+                    for (let g = 0; g < allDiv.length; g++) {
+                        allDiv[g].style.backgroundColor = "green";
+                        console.log(arrId);
+                    }
+                    if (arrId[2]) {
+                        allDiv[i].style.backgroundColor = "red";
+                        arrId = [];
+                        arrId.push(Number(allDiv[i].id));
+                        console.log(arrId)
+                    }
+                }
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>

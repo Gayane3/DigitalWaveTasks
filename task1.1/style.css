@@ -1,0 +1,30 @@
+.container{
+    margin:0 auto;
+    border:1px solid black;
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow: 15px 5px 5px lightgray;
+    height: 600px;
+}
+.container h1{
+    justify-content: center;
+        display: flex;
+        color: #6CBFEC;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+        position: relative;
+            top: 15px;
+}
+.content{
+    display: flex;
+    width: 900px;
+    position: relative;
+    left: 20px;
+}
+.content p{
+    position: relative;
+    left: 50px;
+}

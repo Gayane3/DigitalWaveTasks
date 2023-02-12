@@ -4,9 +4,11 @@
     max-width: 1000px;
     border-radius: 20px;
     box-shadow: 15px 5px 5px lightgray;
-    height: 600px;
+    height: auto;
+    font-family:Comic Sans MS;
+    font-size:14px
 }
-.container h1{
+.container h1, h3{
     justify-content: center;
         display: flex;
         color: #6CBFEC;
@@ -22,9 +24,16 @@ img{
     display: flex;
     width: 900px;
     position: relative;
-    left: 20px;
+    left: 35px;
+    margin-bottom:35px
 }
 .content p{
     position: relative;
     left: 50px;
+}
+.secondContent {
+    margin:20px;
+}
+.firstPar{
+    margin-bottom: 150px
 }

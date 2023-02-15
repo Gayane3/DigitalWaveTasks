@@ -6,7 +6,9 @@
     border-radius: 15px;
     margin: 0 auto;
 }
-
+.images{
+    width: 985px;
+}
 img{
     width: 100px;
     float: left;
